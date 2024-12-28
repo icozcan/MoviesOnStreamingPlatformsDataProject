@@ -1,0 +1,28 @@
+Hello,
+
+To run this project, please follow the steps below in the specified order:
+
+Open a terminal or command prompt and navigate to the directory containing the project files.
+
+1. To install the required packages, run:
+   pip install -r requirements.txt
+
+2) Subsequently, to execute the Python script:
+   python streaming-analysis.py MoviesOnStreamingPlatforms.csv
+
+After running the Python script, you should see two primary output images in .png format:
+
+distributions_analysis.png
+
+Description: This figure contains the main distribution and frequency charts, including bar plots for age categories, release-year histograms, and any other descriptive visualizations. By examining these plots, you can quickly assess how often certain age ratings appear on Netflix vs. Disney+, identify trends in release years, and observe any notable patterns in the dataset.
+quality_scores_analysis.png
+
+Description: This figure displays the analysis of Rotten Tomatoes scores, including box plots, violin plots, or other summary graphics (e.g., Mann–Whitney U test results). Use these visuals to compare Netflix’s and Disney+’s quality metrics, interpret differences in central tendency or distribution, and gain insights into how each platform’s content might differ in average critical reception.
+Both images are saved automatically in the same directory as the script once the Python code is executed. Should you encounter any issues generating or viewing these .png files, please consult the comments within the script or the accompanying documentation for troubleshooting tips. The short code snippet at the end of the script also indicates how the figures were saved, ensuring a consistent naming convention.
+
+
+Should you encounter any difficulties or require further assistance, please do not hesitate to contact me.
+
+Best regards,
+Can İsmail İÇÖZ
+Email: canismailicoz2024@gmail.com
